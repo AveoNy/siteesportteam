@@ -1,0 +1,137 @@
+images/@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+a{
+  color: #ffff;
+  text-decoration: none;
+}
+/*header image*/
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  transition: all.3s ease-out;
+  -ms-transition: all.3s ease-out;
+  -webkit-transition: all.3s ease-out;
+  -moz-transition: all.3s ease-out;
+  -o-transition: all.3s ease-out;
+}
+
+/*header*/
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #000000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.header__section{
+  display: flex;
+  align-items: center;
+
+}
+
+.header__item{
+  font-family: 'Comfortaa', cursive;
+  top:10px;
+  font-size: 2.5em;
+  padding: 10px 15px;
+  margin-left: 5px;
+}
+.header__item>a{
+  color: #2fb7e0;
+  text-decoration: none;
+  transition: all.5s ease;
+  -ms-transition: all.5s ease;
+  -webkit-transition: all.5s ease;
+  -moz-transition: all.5s ease;
+  -o-transition: all.5s ease;
+}
+
+.header__item>a:hover{
+  color: #c34f25;
+  text-decoration: none;
+  transition: all.5s ease;
+  -ms-transition: all.5s ease;
+  -webkit-transition: all.5s ease;
+  -moz-transition: all.5s ease;
+  -o-transition: all.5s ease;
+}
+/*nenada*/
+.headerlogo{
+  font-weight: bold;
+}
+
+.headerButton{
+  cursor: pointer;
+}
+
+/*content*/
+body {
+  background-image: url(csgo.png);
+  background-repeat: repeat-y;
+  background-size:100%;
+  margin:0;
+}
+
+/*footer*/
+#footer {
+position: fixed; /* Фиксированное положение */
+left: 0; bottom: 0; /* Левый нижний угол */
+margin-top: 25px;
+padding: 10px; /* Поля вокруг текста */
+background: black; /* Цвет фона */
+text-align: center;
+color: #fff; /* Цвет текста */
+width: 100%; /* Ширина слоя */
+}
+
+#mail{
+  text-align: right;
+}
+/* about */
+
+div.aboutus {
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  width: 848px; /*dimas tut mogut bit problemi */
+  height: 480px;
+  border: 5px solid white;
+  background-color: #404040;
+  top:23%;
+  text-align: center;
+  left: 20%;
+  right: auto;
+  overflow: hidden;
+  font-family: 'Comfortaa';
+  color: #eb9030;
+}
+
+div.aboutus a{
+  font-size:1.5em;
+  text-decoration: none;
+  color: #6699ff;
+}
+
+div#contact{
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+}
+
+div.aboutus a:hover{
+  transition: all 1s ease;
+  color: red;
+}
+
+span.kek{
+  font-size: 1.5em;
+  text-align: center;
+}
+h2{
+  margin: 40px;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* addvert */
